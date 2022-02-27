@@ -25,7 +25,7 @@
 }
 li {
     font-family: 'Roboto';
-    margin: 3px;
+    margin: 5px;
     font-weight: 600;
     font-size: 16px;
 }
@@ -38,10 +38,44 @@ li {
     font-size: 30px;
     position: relative;
     top: 6px;
-    margin: 0 10px;
+    margin: 5px 10px;
     color: black;
     text-decoration: none;
 }
 .navigation-bar .text-logo:hover{
+    color: #92A9BD;
+}
+.nav-right a{
     color: grey;
+    text-decoration: none;
+    position: relative;
+    right: 40px;
+    font-size: 16px;
+}
+.nav-right a:hover{
+    color: #92A9BD;
+}
+.nav-right button{
+    padding: 10px 16px;
+    color: white;
+    border-radius: 10px;
+    background-color: #FA4EAB;
+    border: none;
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    right: 30px;
+}
+.nav-right button:hover{
+    background-color: #FE83C6;
+}
+.nav-right img{
+    width: 30px;
+    height: 30px;
+    filter: invert(0.5);
+}
+.dropdown-icons li img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
 }
