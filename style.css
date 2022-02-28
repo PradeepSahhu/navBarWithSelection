@@ -5,6 +5,10 @@
     padding: 0;
     margin: 0;
 }
+a::selection, p::selection, li::selection, img::selection, h3::selection{
+    background-color: #FA4EAB;
+    color: white;
+}
 .dropdown:hover .dropdown-menu{
     display: block;
 }
@@ -78,4 +82,13 @@ li {
     width: 20px;
     height: 20px;
     margin: 10px 10px;
+}
+/* ============main body */
+.main-body {
+    width: 60%;
+    text-align: center;
+    margin: 10rem auto;
+}
+.main-body img{
+    float: left;
 }
